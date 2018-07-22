@@ -74,7 +74,7 @@ for i in range(5,24):
 for i in range(0, 24, 3):
     print(i)
 
-"""
+
 #WHILE
 isimler = ["burak", "elif", "betül", "Mr.Robot"]
 
@@ -89,3 +89,16 @@ while sayac < len(isimler):
         print("Sana da merhaba {}".format(soru))
     sayac += 1
 
+"""
+
+
+karakter = "9. Mustafa Akgül Özgür Yazılım Yaz Kampı"
+print("Bu cümle {} karakterden oluşmuştur.".format(len(karakter)))
+
+print(karakter.split(" "))
+
+print(karakter.replace("Yaz", "Kış",1 ))
+
+
+list = ["ilter","ahmet","hatice", "güzel yaren"]
+print("|".join(list)

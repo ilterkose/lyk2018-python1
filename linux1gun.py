@@ -101,4 +101,4 @@ print(karakter.replace("Yaz", "Kış",1 ))
 
 
 list = ["ilter","ahmet","hatice", "güzel yaren"]
-print("|".join(list)
+print("|".join(list))
